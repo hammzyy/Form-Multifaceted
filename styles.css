@@ -6,7 +6,7 @@
 
 body{
     height: 100vh;
-    background-image: linear-gradient(pink ,orange);
+    background-image: linear-gradient(pink ,blanchedalmond, grey);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,15 +42,20 @@ h4{
 }
 
 input{
+    margin-bottom: 10px;
     height: 40px;
     width: 100%;
     background-color: silver;
     border-style: none;
     border-radius: 5px;
 }
+input:hover{
+    background-color: white;
+    color: black;
+}
 
 
-button{
+button{   
     height: 50px;
     border-style: none;
     border-radius: 25px;
@@ -60,7 +65,11 @@ button{
     padding: 15px;
     margin-top: 3px;
     margin-left: 100px;
-    position: absolute;    
+    position: absolute; 
+}
+
+.back{
+    margin-left: 0px; 
 }
 
 button:hover{
