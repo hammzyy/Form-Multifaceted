@@ -68,18 +68,25 @@ button{
     position: absolute; 
 }
 
+.next{
+    margin-left: 185px;
+}
+#submit{
+    margin-left: 235px;
+}
 .back{
     margin-left: 0px; 
 }
 
 button:hover{
-    background-color: white;
-    color: black;
     border-style: solid;
-    transform:scale(90%);
+    transform:scale(1.05);
+    
 }
 
 button:active{
-    background-color: black;
-    color: white;
+    background-color: blanchedalmond;
+    color: black;
+    border-style: solid;
+    transform: scale(0.9);
 }
