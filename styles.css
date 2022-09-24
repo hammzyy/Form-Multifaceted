@@ -68,12 +68,14 @@ button{
     position: absolute; 
 }
 
-.next{
+#next{
     margin-left: 185px;
 }
+
 #submit{
     margin-left: 235px;
 }
+
 .back{
     margin-left: 0px; 
 }
