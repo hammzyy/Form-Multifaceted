@@ -68,15 +68,15 @@ button{
     position: absolute; 
 }
 
-#next{
+#nextbtn{
     margin-left: 185px;
 }
 
-#submit{
+#submitbtn{
     margin-left: 235px;
 }
 
-.back{
+.backbtn{
     margin-left: 0px; 
 }
 
