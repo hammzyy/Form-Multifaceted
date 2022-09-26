@@ -1,25 +1,29 @@
-const nextonly = document.querySelector("#nextonly");
-const next = document.querySelector(".next")
-const bTSU = document.querySelector("#backToSignUp")
-const bTPI = document.querySelector("#backToPi")
-const submit = document.querySelector("#submit")
+const firstSection = document.querySelector(".firstsection");
+const secondSection = document.querySelector(".secondsection");
+const thirdSection = document.querySelector(".thirdsection");
 
-function inNext(){
-    
-}
+const nextOnly = document.querySelector("#nextonlybtn");
+const bTSU = document.querySelector("#backToSignUpbtn");
+const next = document.querySelector("#nextbtn");
+const bTPI = document.querySelector("#backToPibtn");
+const submit = document.querySelector("#submitbtn");
 
-function toNext(){
+nextOnly.addEventListener("click", function (){
+    firstSection.style.display = "none";
+    secondSection.style.display ="block";
+});
 
-}
+bTSU.addEventListener("click", function (){
+    firstSection.style.display = "block";
+    secondSection.style.display ="none";
+});
 
-function backTS(){
+next.addEventListener("click", function (){
+    secondSection.style.display ="none";
+    thirdSection.style.display = "block";
+});
 
-}
-
-function backTPI(){
-
-}
-
-function done(){
-    
-}
+bTPI.addEventListener( "click",function (){
+    secondSection.style.display ="block";
+    thirdSection.style.display = "none";
+});
