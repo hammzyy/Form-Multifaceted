@@ -50,16 +50,16 @@ bTPI.addEventListener("click", function (){
     thirdSection.style.display = "none";
 });
 
-submit.addEventListener("click", function (){
-    const input7 = document.querySelector(".input7");
-    const input8 = document.querySelector(".input8")
-    const input9 = document.querySelector(".input9")
-    let valid = true;
-    valid = valid && input7.value !== "" && input8.value !== "" && input9.value !== ""
-    if (valid) {
+// submit.addEventListener("click", function (){
+//     const input7 = document.querySelector(".input7");
+//     const input8 = document.querySelector(".input8")
+//     const input9 = document.querySelector(".input9")
+//     let valid = true;
+//     valid = valid && input7.value !== "" && input8.value !== "" && input9.value !== ""
+//     if (valid) {
 
-    }
-    else{alert("please fill all fields");
-}
+//     }
+//     else{alert("please fill all fields");
+// }
 
-})
+// })
